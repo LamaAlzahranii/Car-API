@@ -13,7 +13,7 @@ const orders = require("./router/orders")
 
 mongoose
   .connect(
-    `mongodb+srv://lama-2000:${process.env.MONGODB_PASSWORD}@cluster0.hfgau.mongodb.net/?retryWrites=true&w=majority`
+    `mongodb+srv://lama-2000:${process.env.MONGODB_PASSWORD}@cluster0.hfgau.mongodb.net/carlaDB?retryWrites=true&w=majority`
   )
 
   .then(() => console.log("conect to ManogoDB"))
